@@ -1,0 +1,68 @@
+html {
+  font-size:16px;
+}
+
+body {
+  width:1440px;
+  height:1056px; 
+  background:lightgreen;
+  
+}
+
+.container {
+  width:410px;
+  height:630px;
+  border:black solid 1px;
+  margin-left:auto;
+  margin-right:auto;
+  border-radius:20px;
+  margin-top:210px;
+  margin-bottom:210px;
+  overflow:hidden;
+  background:white;
+}
+
+.hero {
+  width:100%;
+  height:200px;
+}
+
+.order {
+  display:flex;
+  flex-direction:column;
+  position:relative;
+  border:black solid 1px;
+  width:70%;
+  height:150px;
+  margin-left:auto;
+  margin-right:auto;
+  position:relative;
+  top:20px;
+  
+}
+
+h1 {
+  text-align:center;
+  font-size:24px;
+  font-weight:900;
+  font-family:"Red Hat Display";
+  
+}
+
+p {
+  font-family:"Red Hat Display";
+  color:hsl(223, 47%, 23%);
+  text-align:center;
+  position:relative;
+  top:-17px;
+  line-height:24px;
+}
+
+.annual {
+  position:relative;
+  top:60px;
+  width:10px;
+  height:10px;
+  display:Flex;
+  flex-direction:row;
+}
