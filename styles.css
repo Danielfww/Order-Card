@@ -7,6 +7,7 @@ body {
   height:900px; 
   background-image: url("https://assets.codepen.io/11868974/pattern-background-desktop.svg");
   background-repeat:no-repeat;
+  background-color:hsl(225, 100%, 94%);
   
 }
 
@@ -35,7 +36,6 @@ body {
   height:150px;
   margin-left:auto;
   margin-right:auto;
-  position:relative;
   top:20px;
   
 }
@@ -47,7 +47,7 @@ h1 {
   font-family:"Red Hat Display";
   color:hsl(223, 47%, 23%);
   position:relative;
-  top:2px
+
   
 }
 
@@ -56,27 +56,26 @@ p {
   color:hsl(224, 23%, 55%);
   text-align:center;
   position:relative;
-  top:-15px;
+  top:-19px;
   line-height:25px;
   font-weight:500;
   font-size:16px;
+  width:100%;
 }
 
 .annual {
   margin-left:auto;
   margin-right:auto;
   position:relative;
-  width:10px;
-  height:10px;
   display:flex;
   flex-direction:row;
-  width:320px;
-  height:90px;
+  width:355px;
+  height:100px;
   justify-items:left;
   text-align:left;
   border-radius:20px;
-    background:hsl(225, 100%, 98%);
-  top:22px;
+  background:hsl(225, 100%, 98%);
+  top:42px;
 }
 
 span {
@@ -87,34 +86,22 @@ span {
   position:relative;
   left:25px;
   top:25px;
-  width:45px;
-  height:45px;
-}
-
-.buttons {
-  width:320px;
-  height:90px;
-  display:flex;
-  flex-direction:row;
-  position:relative;
-  border:black groove 1px;
-  justify-items:center;
-  align-items:center;
-  text-align:center;
+  width:50px;
+  height:50px;
 }
 
 .one {
-  color:black;
   color:hsl(223, 47%, 23%);
   position:relative;
   left:40px;
-  top:10px;
- 
+  top:5px;
+  font-weight:900;
+ font-family:"Red Hat Display";
 }
 
 .two {
  position:relative;
-  left:-45px;
+  left:-85px;
   top:32px;
  
 }
@@ -123,7 +110,7 @@ span {
   text-decoration:underline;
   color:hsl(245, 75%, 52%);
   position:relative;
-  left:40px;
+  left:-10px;
   top:35px;
   font-size:14px;
   font-weight:bold;
@@ -131,14 +118,14 @@ span {
 }
 
 .button {
-  width:320px;
-  height:45px;
+  width:355px;
+  height:50px;
   background:hsl(245, 75%, 52%);
   margin-left:auto;
   margin-right:auto;
   border-radius:20px;
   position:relative;
-  top:45px;
+  top:65px;
   display:flex;
   align-items:center;
   justify-items:center;
@@ -149,10 +136,36 @@ span {
 
 
 .pay {
+   font-family:"Red Hat Display";
+  font-weight:400;
   text-align:center;
   position:relative;
-  top:-5px;
   text-decoration:none;
   color:white;
-  top:10px;
+  top:15px;
+}
+
+.buttons {
+  width:320px;
+  height:90px;
+  display:flex;
+  flex-direction:row;
+  position:relative;
+  justify-items:center;
+  align-items:center;
+  text-align:center;
+  top:45px;
+}
+
+.cancel {
+  display:flex;
+  text-decoration:none;
+   font-family:"Red Hat Display";
+  color:hsl(224, 23%, 55%);
+  text-align:center;
+  justify-content:center;
+  align-items:center;
+  left:110px;
+  position:relative;
+  
 }
