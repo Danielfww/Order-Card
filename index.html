@@ -1,41 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title> Order Summary </title>
   <link rel="stylesheet" type="text/css" href="styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  <style>
+    .three:hover {
+      color: hsl(224, 23%, 55%);
+      text-decoration: none;
+    }
+
+    .button:hover {
+      background: rgb(118, 108, 241);
+    }
+    
+    .cancel:hover{
+      color:hsl(223, 47%, 23%);
+      font-weight:900;
+    }
+  </style>
 </head>
-
 <body>
-
-
-<div class="container">
-  <img class="hero" src="https://assets.codepen.io/11868974/illustration-hero.svg" alt="hero" />
-  <div class="order">
-    <h1>Order Summary</h1>
-    <p>You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
-       </div>
-  <div class="annual">
-    <img class="note" src="https://assets.codepen.io/11868974/icon-music.svg" alt="icon" />
-  <p class="one"><b>Annual Plan</b></p>
-    <p class="two">$59.99/year</p>
-    <a class="three" href="#">Change</a>
+  <div class="div">
+    <div class="container">
+      <img class="hero" src="https://assets.codepen.io/11868974/illustration-hero.svg" alt="hero" />
+      <div class="order">
+        <h1>Order Summary</h1>
+        <p>You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
+      </div>
+      <div class="annual">
+        <img class="note" src="https://assets.codepen.io/11868974/icon-music.svg" alt="icon" />
+        <p class="one">Annual Plan</p>
+        <p class="two">$59.99/year</p>
+        <a class="three" href="#">Change</a>
+      </div>
+      <div class="button">
+        <a href="#" class="pay"><b>Proceed to Payment</b></a>
+        <div>
+          <div class="buttons">
+            <a href="#" class="cancel">Cancel Order </a>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-
-    <div class="button">
-      <a href="#" class="pay"><b>Proceed to Payment</b></a>
-      <div>
-        <div class="buttons">
-          <a href="#" class="cancel">Cancel Order </a>
-  </div>
-  </div>
-
-  
+</body>
+</html>
  
 </div>
   </div>
