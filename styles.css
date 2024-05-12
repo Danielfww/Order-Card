@@ -182,15 +182,7 @@ html {
   
   
   
-  
-  
-  
-  
-  
-  
-  
-  
-  @media (max-width:475px) {
+    @media (max-width:475px) {
      
     body {
       margin: 0 auto;
@@ -198,9 +190,6 @@ html {
       width:375px;
       height:710px;
       background-image: url("https://assets.codepen.io/11868974/pattern-background-mobile_1.svg");
-      background-size:100%;
-      position:relative;
-      top:33px;
   
      
   }
@@ -223,6 +212,9 @@ html {
       
     }
     
+    .annual {
+      width:90%;
+    }
     
     .hero {
       height:163px;
@@ -266,14 +258,13 @@ html {
 
     .two {
         position:relative;
-        left:-92px;
+        left:-90px;
         top:25px;
     }
 
     .three {
         position:relative;
         top:30px;
-      font-size:13px;
     }
 
     
@@ -287,7 +278,9 @@ html {
       top:-29px;
     }
     
-  
+    
+    
+    
     
   }
-    
+   
