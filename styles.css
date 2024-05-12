@@ -182,7 +182,7 @@ html {
   
   
   
-    @media (max-width:475px) {
+     @media (max-width:475px) {
      
     body {
       margin: 0 auto;
@@ -190,6 +190,10 @@ html {
       width:375px;
       height:710px;
       background-image: url("https://assets.codepen.io/11868974/pattern-background-mobile_1.svg");
+      background-size:105%;
+      position:relative;
+      top:30px;
+        
   
      
   }
