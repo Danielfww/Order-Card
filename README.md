@@ -17,10 +17,13 @@ See hover states for interactive elements
 <br>
 <br>
 Link to the Challenge: https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj
-
+<br>
+<br>
 <b>Technologies</b> I used in this project were: Responsive layout, Media queries
 
-Challenges I faced:
+<b>Challenges I faced:</b>
+<br>
+<br>
 I think the only challange I faced were the hover states, they just dont come naturally to me yet.
 -I looked at the design they made for 375px but I do not have a device like that so I went with 430px+ so I can actually see the mobile version of this on my phone;
 - Any suggestions or advice would be much appreaciated.
